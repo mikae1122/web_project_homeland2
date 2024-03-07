@@ -1,0 +1,47 @@
+.header{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.logo{
+    width: 254px;
+    height: 70px;
+    margin-top: 34px;
+}
+.header__title{
+color: #ffff;
+width: 793px;
+height: 200px;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+align-items: center;
+margin-top: 90px;
+padding-left: 37px;
+padding-right: 36px;
+
+}
+.header__text{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    margin-top: 32px;
+    max-width: 720px;
+    max-height: 72px;
+    margin-bottom: 64px;
+
+
+}
+.header__image{
+    width: 100%;
+    height: 100%;
+    max-width: 984px;
+    max-height: 615px;
+    filter: grayscale(100%);
+margin-bottom: 92px;     
+}
+     
