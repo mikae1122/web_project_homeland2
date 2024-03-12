@@ -1,0 +1,89 @@
+.cities-main {
+  display: flex;
+  flex-direction: column;
+  margin: 92px 0 auto;
+  gap: 31px;
+}
+.cities-main__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  grid-template-areas:
+    "title subtitle"
+    "image description"
+    "button description"
+    "span description";
+}
+
+.cities-main__title {
+  max-width: 480px;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  grid-area: title;
+}
+.cities-main__subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: subtitle;
+}
+
+.cities-main__subtitle-label {
+  color: rgba(170, 170, 170, 1);
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 12%;
+}
+
+.cities-main__subtitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cities-main__cities-image {
+  width: 100%;
+  height: 100%;
+  max-width: 460px;
+  max-height: 460px;
+  grid-area: image;
+}
+
+.cities-main__description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-area: description;
+}
+
+.cities-main__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 29.34px;
+  max-width: 484px;
+}
+
+.cities-main__buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0278fe;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 21.78;
+  color: #ffffff;
+  width: 100%;
+  height: 48px;
+  max-width: 355px;
+  border: none;
+  outline: none;
+  grid-row-start: 3;
+  grid-area: button;
+  text-decoration: none;
+}
+
+.cities-main__buy-button:hover {
+  background-color: #0063d2;
+}
