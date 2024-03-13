@@ -1,5 +1,7 @@
-.page{
- margin: 0 auto;
-background-color: rgba(42, 44, 47, 1);
-
+.page {
+  margin: 0 auto;
+  background-color: rgba(42, 44, 47, 1);
+  font-family: "Inter", arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
