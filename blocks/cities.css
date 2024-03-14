@@ -87,3 +87,18 @@
 .cities-main__buy-button:hover {
   background-color: #0063d2;
 }
+
+@media screen and (max-width: 1024px) {
+  .cities-main__wrapper {
+    max-width: 733px;
+  }
+
+  .cities-main__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .cities-main__description {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
