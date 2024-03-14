@@ -53,3 +53,17 @@
   font-size: 16px;
   line-height: 26.08px;
 }
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 0 24px 64px;
+  }
+
+  .friends {
+    margin-bottom: 64px;
+  }
+
+  .friends__title {
+    margin: 0 0 58px 0;
+  }
+}
