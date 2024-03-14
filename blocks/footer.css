@@ -55,3 +55,24 @@
   color: #ffffff;
   line-height: 14px;
 }
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 46px 16px;
+  }
+
+  .footer__center_title {
+    width: 656px;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0 0 16px;
+  }
+  .footer__center_paragraph {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer__copyrigth {
+    line-height: 14px;
+  }
+}
