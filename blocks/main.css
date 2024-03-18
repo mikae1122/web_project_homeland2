@@ -67,3 +67,26 @@
     margin: 0 0 58px 0;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .main {
+    padding: 0 16px 38px;
+  }
+  .friends {
+    margin-bottom: 38px;
+  }
+  .friends__title {
+    font-size: 2rem;
+    line-height: 35px;
+    margin: 0 0 58 0;
+  }
+  .friends__text_first {
+    max-width: 288px;
+    line-height: 30px;
+    margin: 0 18px 0 0;
+  }
+  .friends__text_second {
+    margin: 0 18px 0 0;
+    max-width: 288px;
+  }
+}
