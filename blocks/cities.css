@@ -102,3 +102,28 @@
     line-height: 26.08px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .cities-main__wrapper {
+    margin: 62px 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "description"
+      "button";
+  }
+  .cities-main__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .cities-main__subtitle-label {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+
+  .cities-main__buy-button {
+    max-width: unset;
+  }
+}
